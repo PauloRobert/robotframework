@@ -19,3 +19,7 @@ Quando submeto meu email "${email}"
 
 Entao devo ver a lista de pratos por tipo
     Wait Until Page Contains       Fome de ${prato}
+    
+E faço logout
+    Sleep       5
+    Click Text      Sair
